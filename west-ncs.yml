@@ -4,6 +4,9 @@ manifest:
       revision: v2.7.0
       url: http://github.com/nrfconnect/sdk-nrf
       import: true
-
+    - name: zephyr-network-info
+      path: deps/modules/lib/network-info
+      revision: v1.1.1
+      url: https://github.com/golioth/zephyr-network-info
   self:
     path: modules/lib/golioth-firmware-sdk
